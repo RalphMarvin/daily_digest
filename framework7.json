@@ -1,0 +1,25 @@
+{
+  "cwd": "/Users/ralph/Desktop/daily_digest",
+  "type": [
+    "capacitor"
+  ],
+  "name": "Daily Digest",
+  "framework": "react",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#b59517",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "com.marvisoft.dailydigest",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}

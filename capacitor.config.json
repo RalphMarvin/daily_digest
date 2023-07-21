@@ -1,0 +1,13 @@
+{
+  "appId": "com.marvisoft.dailydigest",
+  "appName": "Daily Digest",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

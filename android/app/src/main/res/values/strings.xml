@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Daily Digest</string>
+    <string name="title_activity_main">Daily Digest</string>
+    <string name="package_name">com.marvisoft.dailydigest</string>
+    <string name="custom_url_scheme">com.marvisoft.dailydigest</string>
+</resources>
