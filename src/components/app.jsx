@@ -1,27 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { getDevice } from 'framework7/lite-bundle';
-import {
-  f7,
-  f7ready,
-  App,
-  Panel,
-  Views,
-  View,
-  Page,
-  Navbar,
-  Toolbar,
-  Link,
-  Block,
-} from 'framework7-react';
+import { f7, f7ready, App, Panel, Views, View, Page, Navbar, Toolbar, Link, Block } from 'framework7-react';
 
 import store from '../js/store';
 import routes from '../js/routes';
 import capacitorApp from '../js/capacitor-app';
 
 const MyApp = () => {
-  // Login screen demo data
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
   const device = getDevice();
 
   // Framework7 Parameters
@@ -44,7 +29,8 @@ const MyApp = () => {
     // Capacitor Statusbar settings
     statusbar: {
       iosOverlaysWebView: true,
-      androidOverlaysWebView: false,
+      androidOverlaysWebView: true,
+      androidBackgroundColor: '#b59517',
     },
   };
 
